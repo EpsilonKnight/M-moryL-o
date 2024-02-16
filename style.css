@@ -1,0 +1,25 @@
+
+
+#zone-de-dessin {
+  float: left; /* Aligner le canvas à gauche */
+  margin-right: 50px; /* Ajouter une marge à droite */
+  
+}
+
+.tailleSon {
+  height: 600px;
+  width: 300px;
+  float: left; /* Aligner la div à gauche */
+}
+
+.tailleImg {
+  width: 100%; /* Remplir la largeur de la div parente */
+  height: 150px;
+}
+
+.tailleSon div {
+  margin: 20px 0; /* Ajouter une marge en haut et en bas pour séparer les divs */
+}
+.audiotaille{
+    width: 300px;
+}

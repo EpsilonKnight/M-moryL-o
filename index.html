@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LéoMémory</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="zone-de-dessin"></canvas>
+
+    
+      <div class="tailleSon">
+        <div>
+        <img src="images/over.jpg" alt="Image de Over the top" class="tailleImg" />
+        <audio controls id="volume1" class="audiotaille">
+          <source src="sons/country.mp3" type="audio/mp3" />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+      <div>
+        <img src="images/karate.jpeg" alt="Image de Karaté Kid" class="tailleImg" />
+        <audio controls id="volume2" class="audiotaille">
+          <source src="sons/best.ogg" type="audio/ogg" />
+          
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+      <div>
+        <img src="images/avengers.jpg" alt="image de super héro" class="tailleImg" />
+        <audio src="sons/hero.mp4" controls id="volume3" class="audiotaille"></audio>
+      </div>
+    </div>
+
+    <script src="memory4.js"></script>
+    <script>
+        let audio1 = document.getElementById("volume1");
+        let audio2 = document.getElementById("volume2");
+        let audio3 = document.getElementById("volume3");
+        audio1.volume = 0.3;
+        audio2.volume = 0.3;
+        audio3.volume = 0.5;
+    </script>
+  </body>
+</html>
